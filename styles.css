@@ -1,0 +1,116 @@
+
+body{
+    background-color: rgb(248, 245, 238);
+    width: 80%;
+    margin-left: 10%;
+}
+header{
+    
+    color: rgb(255, 255, 255);
+    padding: 40px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+    
+}
+header h1{
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+nav{
+    background-color: rgb(181, 161, 132);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    z-index: 50;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 35%;
+
+}
+.lien{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.lien:hover{
+    color: #000;
+}
+.lien:visited{
+    color: rgb(red);
+}
+nav ul{
+    list-style-type: none;
+    display: flex; 
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    display: flex;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: backround-color 0.3s ease;
+    
+}
+nav ul li a:hover{
+    background-color: rgba(63, 54, 54, 0.1);
+    border-radius: 9px;
+}
+p{
+    position: relative;
+  width: 400px;
+  height: 200px;
+
+}
+footer{
+    margin-top: 3vh;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    border: solid rgb(195, 154, 19) ;
+    background-color: white;
+}
+article,p{
+    padding: 2%;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+
+}
+img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    
+}
+aside{
+    background-color: white;
+    width: 20%;
+    border:solid rgb(195, 154, 19);
+    border-radius: 0px 0px 15px 15px ;
+    height: 40vh;
+    overflow: scroll;
+}
+section{
+    background-color: white;
+    width: 80%;
+    border:solid rgb(195, 154, 19) ;
+    border-radius: 15px 0px 15px 15px;
+    margin-right: 1%;
+}
+h3{
+    background-color: blanchedalmond;
+    height: 40px;
+}
+
+
